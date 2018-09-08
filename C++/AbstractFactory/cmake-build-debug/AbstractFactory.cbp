@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AbstractFactory"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jose/CLionProjects/AbstractFactory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jose/CLionProjects/AbstractFactory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jose/CLionProjects/AbstractFactory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractFactory">
+				<Option output="/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/AbstractFactory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jose/CLionProjects/AbstractFactory/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 AbstractFactory"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AbstractFactory/fast">
+				<Option output="/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/AbstractFactory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jose/CLionProjects/AbstractFactory/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 AbstractFactory/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jose/CLionProjects/AbstractFactory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/AppleButton.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/AppleButton.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/AppleFactory.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/AppleFactory.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/AppleTaskBar.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/AppleTaskBar.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/Factory.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/Factory.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/LinuxButton.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/LinuxButton.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/LinuxFactory.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/LinuxFactory.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/LinuxTaskBar.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/LinuxTaskBar.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/User.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/User.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/Widget.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/Widget.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/WindowsButton.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/WindowsButton.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/WindowsFactory.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/WindowsFactory.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/WindowsTaskBar.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/WindowsTaskBar.h">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/main.cpp">
+			<Option target="AbstractFactory"/>
+		</Unit>
+		<Unit filename="/home/jose/CLionProjects/AbstractFactory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
