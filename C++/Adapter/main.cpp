@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+//El patrón adapter funciona como un adaptador para cambiar ya sea ciertos parametros
+//o funciones que no sirven en una clase o método específico "Adaptando" a lo que se 
+//pide
+
 typedef int Coordinate;
 typedef int Dimension;
 
