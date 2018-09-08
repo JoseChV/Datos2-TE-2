@@ -1,0 +1,6 @@
+[package]
+name = "AbstractFactory"
+version = "0.1.0"
+authors = ["Jose <josechv98@gmail.com>"]
+
+[dependencies]
