@@ -1,5 +1,10 @@
 #include <iostream>
 using namespace std;
+
+//El patrón facade se utiliza para crear una fachada entre
+//el cliente y el programa encapsulando todas las clases
+//complicadas dentro de ella y conectandose a traves de él
+
 class MisDepartment
 {
   public:
