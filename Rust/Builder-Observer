@@ -1,1 +1,45 @@
+//Builder Pattern
+struct Guitar<'a>{
+    nStrings: &'a isize,
+    brand: &'a str,
+    tipo: &'a str,
+}
+impl<'a> GuitarBuilder<'a>{
+    fn new(nStrings: &'a isize, brand: &'a str, tipo: &'a str) -> GuitarBuilder <'a>{
+           GuitarBuilder{
+                nStrings,
+                brand,
+                tipo,
+        }
+    }
+    fn build(self) -> GuitarBuilder<'a>{
+        Guitar{
+            nStrings: self.nStrings,
+            brand: self.brand,
+            tipo: self.tipo,
+        }
+    }
+} 
 
+pub struct Notifier<E> {
+    subscribers: Vec<Box<Fn(&E)>>,
+}
+
+
+impl<E> Notifier<E> {
+    pub fn new() -> Notifier<E> {
+        Notifier { subscribers: Vec::new() }
+    }
+
+    pub fn register<F>(&mut self, callback: F)
+        where F: 'static + Fn(&E)
+    {
+        self.subscribers.push(Box::new(callback));
+    }
+
+    pub fn notify(&self, event: E) {
+        for callback in &self.subscribers {
+            callback(&event);
+        }
+    }
+}
